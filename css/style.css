@@ -1,0 +1,50 @@
+html{
+	height: 100%;
+}
+body{
+	height:100%;
+	font-family: helvetica;
+}
+
+#container{
+	margin: auto;
+	max-height: 100%;
+	width: 1200px;
+	background-color: red;
+}
+
+#header{
+	min-height: 100px;
+	background-color: green;
+}
+
+#column1{
+	width: 25%;
+	min-height: 100%;
+	background-color: blue;
+	float:left;
+
+}
+
+#column2{
+	width: 50%;
+	min-height: 100%;
+	background-color: purple;
+	float:left;
+
+}
+
+#column3{
+	width: 25%;
+	min-height: 100%;
+	background-color: orange;
+	float:right;
+
+
+}
+
+#footer{
+	clear: both;
+	height: 60px;
+	background-color: black;
+}
